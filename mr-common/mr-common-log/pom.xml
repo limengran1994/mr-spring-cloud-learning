@@ -3,25 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>work.limr</groupId>
-        <artifactId>mr-learning</artifactId>
+        <artifactId>mr-common</artifactId>
         <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mr-common</artifactId>
-    <description>通用模块</description>
-    <packaging>pom</packaging>
+    <artifactId>mr-common-log</artifactId>
+    <description>日志模块</description>
+    <name>mr-common-log</name>
 
     <dependencies>
 
     </dependencies>
 
-    <modules>
-        <module>mr-common-log</module>
-        <module>mr-common-core</module>
-        <module>mr-common-redis</module>
-        <module>mr-common-swagger</module>
-        <module>mr-common-security</module>
-    </modules>
 
 </project>
